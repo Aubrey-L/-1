@@ -1,0 +1,6 @@
+	<view class='tilte'>{{title}}</view>
+	<view class='parameter-wrap'>
+		<block wx:for="{{parameter}}" wx:key="parameter" data-index='index'>
+			<text class="parameter-text" class='parameter-info text-over {{item.checked?"checked_parameter":"checked"}}' data-index="{{index}}" data-id='{{item.Value}}' bindtap='parameterTap'>{{item.Text}}</text>
+		</block>
+	</view>

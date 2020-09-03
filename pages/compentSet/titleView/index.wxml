@@ -1,0 +1,7 @@
+	<view class="body-box-flow">
+		<view class="circle-first"></view>
+		<view  class="circle"></view>
+		<view>{{title}}</view>
+		<view></view>
+		<view></view>
+	</view>

@@ -1,0 +1,6 @@
+<view class='body-text  text-class'  hidden="{{showText}}" bindtap="_tapText" >
+  <text class='left-text'>{{leftName}}
+</text>
+  <view class='right-text right-view-hidden'>{{rightName}}</view>
+  <slot></slot>
+</view>

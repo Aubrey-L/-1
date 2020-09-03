@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "完善信息",
+  "usingComponents": {
+    "chekout-List": "../compentSet/chekoutList/index",
+    "input-view": "../compentSet/inputView/index"
+
+  }
+}

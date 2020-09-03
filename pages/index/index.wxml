@@ -1,0 +1,30 @@
+<view class="header-box">
+	<image src="../../image/Toprmb.png"></image>
+	<text style="font-size:50rpx;padding-top:46rpx;text-align: center;">现场注册, 领红包</text>
+	<view class="header-top-image">
+		<image src="../../image/Toprmb.png"></image>
+		<view>
+			<text style="text-align: center;font-size:24rpx;padding-top:16rpx;opacity:0.6;">现场注册HQBUY账号并完善信息</text>
+			<text style="text-align:center;font-size:24rpx;opacity:0.6;padding-top:10rpx">可领取 <text style="text-align: center;font-size:26rpx;color:#FFDAAB;padding-top:10rpx">100元</text> 红包</text>
+		</view>
+	</view>
+</view>
+
+<view class="body">
+	<view class="body-box" >
+		<title-view title='参与步骤' />
+		<flow-view />
+	</view>
+	<view class="body-box">
+		<title-view title='活动说明' />
+		<text-view text-class='text-text' leftName='活动时间: ' rightName='2020年8月13日-15日，共2天' />
+		<text-view text-class='text-text' leftName='活动规则: ' rightName='活动期间内，现场注册账号并完善     信息的用户，均视为成功参与此次活动；每个用户只可参与一次' />
+		<text-view text-class='text-text' leftName='活动奖励: ' rightName='成功参与此次活动的用户，均可获得5元现金红包' />
+		<text-view text-class='text-text' leftName='补充说明: ' rightName='活动码请咨询现场工作人员领取' />
+	</view>
+	<view class="but-sub">
+		<button wx:if="{{isButtomLogin}}" class="submit-red"  bindtap="_login">立即注册</button>
+		<button wx:else class="submit"  bindtap="_save">完善信息</button>
+	</view>
+	<image src="../../image/Bottomrmb.png"></image>
+</view>

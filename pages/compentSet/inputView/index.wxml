@@ -1,0 +1,12 @@
+
+<view class='box' hidden='{{inputShow}}'  >
+  <text class="textInt  {{isNostar?'':'textstar'}} ">{{leftName}}</text>
+  <view class='body-box' >
+    <input value="{{InputValue}}" bindblur="getInputValue" bindinput='getValues' class="inputText  text-class" disabled='{{isBottom}}' placeholder='{{placeholder}}' type="{{types}}" placeholder-class='place-holder-style' />
+    <view class='box-icon-view' bindtap='_clear' hidden='{{isClear}}'>
+      <icon class='icon-box' type='clear' color='#999999' size='12'></icon>
+    </view>
+				<slot></slot>
+  </view>
+
+</view>

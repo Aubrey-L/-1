@@ -1,0 +1,23 @@
+<form catchsubmit="formSubmit" catchreset="formReset">
+
+	<view class="header-image">
+		<image src="../../image/Bottomrmb.png"></image>
+		<view>欢迎注册</view>
+		<image src="../../image/opacity.png"></image>
+	</view>
+	<input-view leftName='手机号码' InputValue='{{PhoneValue}}' placeholder='请输入手机号码' bindgetInput='_getInputPhone' types='number' name='CName' />
+	<input-view leftName='验证码' placeholder='请输入手机验证码' types='number' name='vCode'>
+		<view bindtap="_getCode" style="{{!isCode?'color:#333':'color:#2967ff'}}" class="gain_time">{{codeTitle}}</view>
+	</input-view>
+	<input-view leftName='活动码' placeholder='请输入跟工作人员领取的活动码' name='invitationCode' />
+	<view class="checkbox-view">
+		<label class="checkbox">
+			<checkbox value="cb" class="check" checked="true" name='phone3' />我已阅读同意
+		</label>
+		<text  style="color:#006EFF" >《华强旗舰服务协议》</text>
+	</view>
+	<view class="buttom-view">
+		<button class="submit" form-type="submit">注册</button>
+	</view>
+
+</form>

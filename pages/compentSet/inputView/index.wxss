@@ -1,0 +1,44 @@
+.box {
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.textInt {
+  font-size: 26rpx;
+  color: #333333;
+  padding: 20rpx 35rpx 0 66rpx;
+  margin-bottom: 20rpx;
+}
+
+.inputText {
+  position: relative;
+  font-size: 30rpx;
+  color: #333;
+  width: 100%;
+  padding-bottom: 10rpx;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+.place-holder-style {
+  color:#ccc;
+}
+
+.body-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 66rpx;
+  margin-right: 35rpx;
+}
+
+.box-icon-view {
+  width: 50rpx;
+  text-align: center;
+    padding-bottom: 10rpx;
+}
+.textstar::after {
+  content: '  *';
+  color: #ff3e43;
+
+}

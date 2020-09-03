@@ -1,0 +1,17 @@
+.right-text {
+  color: #333;
+  margin-left: 26rpx;
+  word-wrap: break-word;
+  word-break: normal;
+  flex: 1;
+  width: 50rpx;
+}
+
+.left-text {
+  color: #333333;
+}
+
+.body-text {
+  display: flex;
+  flex-direction: row;
+}

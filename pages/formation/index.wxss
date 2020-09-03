@@ -1,0 +1,13 @@
+.buttom-view{
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+
+  background: white;
+  border-top: 1rpx solid #E0E0E0;
+  height: 130rpx;
+}
+
+.buttom-view view{
+  padding: 16rpx 50rpx 0  50rpx;
+}

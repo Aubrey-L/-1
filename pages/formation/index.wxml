@@ -1,0 +1,19 @@
+<form catchsubmit="formSubmit" catchreset="formReset">
+	<view style="margin-bottom:130rpx; ">
+		<input-view leftName='姓名' placeholder='请输入姓名' name='ContactName' />
+		<input-view leftName='公司中文名称' placeholder='请输入公司中文名称' name='Cname' />
+		<input-view   isNostar='true' leftName='公司英文名称' placeholder='请输入公司英文名称' name='Ename' />
+		<input-view leftName='公司电话' placeholder='请输入公司中文名称' name='Tel' />
+		<input-view leftName='公司网站' placeholder='请输入公司网站' name='Web' />
+		<input-view leftName='公司地址' placeholder='请输入公司地址' name='Address' />
+		<input-view  isNostar='true' leftName='备注' placeholder='请输入相关内容' name='Remark' />
+		<chekout-List title='客户类型' parameter="{{parameter3}}" name='TypeValue' />
+		<chekout-List title='产品' parameter="{{parameter}}" name='ProductValue' />
+		<chekout-List title='主要涉及行业' parameter="{{parameter2}}" name='IndustryValue' />
+	</view>
+	<view class="buttom-view">
+		<view>
+			<button class="submit" form-type="submit">确认</button>
+		</view>
+	</view>
+</form>

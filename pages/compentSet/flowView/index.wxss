@@ -1,0 +1,82 @@
+@import "../../../utils/iconfont.wxss";
+
+.body-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.body-box>view:nth-child(2) {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  width: 120rpx;
+  height: 8rpx;
+margin-top: 40rpx;
+}
+
+.body-box>view:nth-child(4) {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  width: 120rpx;
+  height: 8rpx;
+margin-top: 40rpx;
+}
+
+.circle-dot {
+  width: 100%;
+  width: 8rpx;
+  height: 8rpx;
+  border-radius: 50%;
+  background: #1B66D4;
+}
+.circle-dot-red {
+  width: 100%;
+  width: 8rpx;
+  height: 8rpx;
+  border-radius: 50%;
+  background: #DC6372;
+}
+.body-box-flow {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.body-box-flow>view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 84rpx;
+  height: 84rpx;
+  background-color: #D1E0F7;
+  border-radius: 50%;
+  margin: 0 8rpx 20rpx 8rpx;
+}
+
+.body-box-flow>text {
+  color: #1B66D4;
+  font-size: 26rpx;
+}
+
+.body-red-packet {
+  display: flex;
+  flex-direction: column;
+}
+
+.body-red-packet>view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 84rpx;
+  height: 84rpx;
+  background-color: #F8E0E3;
+  border-radius: 50%;
+  margin: 0 8rpx 20rpx 8rpx;
+}
+
+.body-red-packet>text {
+  color: #DC6372;
+  font-size: 26rpx;
+}

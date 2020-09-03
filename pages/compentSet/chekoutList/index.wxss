@@ -1,0 +1,49 @@
+.tilte {
+  margin-left: 66rpx;
+  font-size: 26rpx;
+  color: #333333;
+  margin-bottom: 24rpx;
+  margin-top: 44rpx;
+}
+
+.tilte::before {
+  margin-top: 10rpx;
+  color: red;
+  content: '*';
+}
+
+.parameter-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: white;
+  padding: 0 38rpx 0 66rpx;
+}
+
+.parameter-text {
+  width: 100%;
+}
+
+.checked_parameter {
+  background: #E5F4FF;
+  color: #2967FF;
+  border-radius: 28rpx;
+  padding: 14rpx 56rpx 14rpx 56rpx;
+  margin-right: 28rpx;
+  margin-bottom: 35rpx;
+  font-size: 26rpx;
+  box-sizing: border-box;
+  border: 2rpx solid #2967FF;
+}
+
+.checked {
+  margin-bottom: 35rpx;
+  box-sizing: border-box;
+  border: 2rpx solid #F5F5F5;
+  background: #F5F5F5;
+  color: #333333;
+  border-radius: 28rpx;
+  padding: 14rpx 56rpx 14rpx 56rpx;
+  margin-right: 28rpx;
+  font-size: 26rpx;
+}
